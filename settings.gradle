@@ -1,0 +1,11 @@
+rootProject.name = 'testAuth'
+include 'authentication'
+include 'application'
+
+gradle.allprojects {
+    ext {
+        set('springCloudVersion', "2023.0.0-RC1")
+        set('springVersion', "3.2.0")
+    }
+}
+
